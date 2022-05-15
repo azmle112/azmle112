@@ -8,6 +8,4 @@ RUN pip install pillow==7.1.2
 RUN pip install tensorboard==2.2.1
 RUN pip install tqdm==4.46.0
 RUN pip install torchvision==0.4.2
-wget https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-linux.zip
-sudo unzip ninja-linux.zip -d /usr/local/bin/
-sudo update-alternatives --install /usr/bin/ninja ninja /usr/local/bin/ninja 1 --force
+
