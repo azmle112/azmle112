@@ -9,3 +9,4 @@ RUN pip install tensorboard==2.2.1
 RUN pip install tqdm==4.46.0
 RUN pip install torchvision
 Run pip install facenet_pytorch
+Run pip install pandas
