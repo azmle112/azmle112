@@ -46,3 +46,4 @@ RUN pip install urllib3==1.26.8
 RUN pip install wandb==0.12.11
 RUN pip install yaspin==2.1.0
 RUN pip install zipp==3.7.0
+RUN pip install pandas
