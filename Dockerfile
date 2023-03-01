@@ -1,3 +1,4 @@
+docker buildx create --name ingress-nginx --buildkitd-flags '--allow-insecure-entitlement network.host'
 From barrieca/stylegan-encoder
 RUN pip install pip
 RUN pip install tensorflow==1.13.0
