@@ -1,6 +1,6 @@
 From bitnami/tensorflow-serving:1.13.0-ol-7-r120
-wget https://bootstrap.pypa.io/get-pip.py
-python get-pip.py
+Run wget https://bootstrap.pypa.io/get-pip.py
+Run python get-pip.py
 RUN pip install python3-pip #python3
 RUN pip install tensorflow==1.13.0
 RUN pip install tensorflow-gpu==1.13.0
