@@ -1,6 +1,5 @@
-# docker buildx create --name ingress-nginx --buildkitd-flags '--allow-insecure-entitlement network.host'
 From bitnami/tensorflow-serving:1.13.0-ol-7-r120
-RUN apt-get install python3-pip #python3
+RUN pip install python3-pip #python3
 RUN pip install tensorflow==1.13.0
 RUN pip install tensorflow-gpu==1.13.0
 RUN pip install keras==2.2.4
