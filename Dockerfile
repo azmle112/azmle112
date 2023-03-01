@@ -25,8 +25,7 @@ RUN apt-get update && apt-get install -y \
 	vim \
 	bzip2 \
         git \
-        build-essential\
-        pip
+        build-essential
 
 #Downgrade CUDA, TF issue: https://github.com/tensorflow/tensorflow/issues/17566#issuecomment-372490062
 RUN apt-get install --allow-downgrades -y libcudnn7=7.0.5.15-1+cuda9.0
