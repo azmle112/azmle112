@@ -1,3 +1,4 @@
+From barrieca/stylegan-encoder
 RUN pip install pip
 RUN pip install tensorflow==1.13.0
 RUN pip install tensorflow-gpu==1.13.0
